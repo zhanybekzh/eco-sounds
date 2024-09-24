@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
   <title>Eco sounds</title>
 </head>
 <body>
+  <div class="interactive-elements">
+    <button class="element" data-image="./assets/img/drozd.jpg" data-sound="./assets/audio/drozd.mp3">Drozd</button>
+    <button class="element" data-image="./assets/img/forest.jpg" data-sound="./assets/audio/forest.mp3">Forest</button>
+    <button class="element" data-image="./assets/img/javoronok.jpg" data-sound="./assets/audio/javoronok.mp3">Javaronok</button>
+    <button class="element" data-image="./assets/img/slavka.jpg" data-sound="./assets/audio/slavka.mp3">Slavka</button>
+    <button class="element" data-image="./assets/img/zarynka.jpg" data-sound="./assets/audio/zarynka.mp3">Zarynka</button>
+  </div>
+  <img id="landscape" src="./assets/img/drozd.jpg" alt="Пейзаж">
+  <audio id="audio-player"></audio>
   
+  <button id="play-pause">Play</button>
+  <script src="./script.js"></script>
 </body>
 </html>

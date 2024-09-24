@@ -1,0 +1,16 @@
+.interactive-elements .element {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.interactive-elements .element:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  border: 2px solid blue;
+}
+
+#play-pause.playing {
+  background-color: green;
+}
